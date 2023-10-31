@@ -1,0 +1,202 @@
+*{
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    display:grid;
+    grid-template-columns: 1fr 0.5fr 2fr;
+    grid-template-rows: 0.1fr 1fr 1fr 1fr;
+    row-gap: 40px;
+    column-gap: 40px;
+    background-color: rgb(198, 235, 255);
+    
+}
+
+.titulo{
+    grid-column-start: 1;
+    grid-column-end:5;
+    grid-row-start:1;
+    grid-row-end:1;
+}
+
+.ajustes{
+    padding: 10px 87px;
+}
+
+.buta, .bute{
+    padding: 10px 220px;
+}
+
+.butc{
+    padding: 10px 240px;
+}
+
+.butb{
+    padding: 10px 200px;
+}
+
+.butd{
+    padding: 10px 200px;
+}
+
+.custom-upload-button {
+    display: grid;
+    padding: 10px 50px;
+    background-color: #cc55fb;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    user-select: none;
+    text-align: center;
+  }
+  
+  #file-upload {
+    display: none; /* Oculta el campo de entrada de archivo predeterminado. */
+  }
+  
+  /* Estilo cuando se pasa el ratón sobre el botón */
+  .custom-upload-button:hover {
+    background-color: #9500b3;
+  }
+
+button{
+    padding: 10px 50px;
+    background-color: #cc55fb;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    user-select: none;
+    place-items: center;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #9500b3;
+}
+
+input{
+    background-color: #dfdfdf;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 50px;
+}
+
+h1{
+    background-color: rgb(88, 113, 240);
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px 20px;
+}
+
+h3{
+    text-align: center;
+    background-color:rgb(88, 113, 240) ;
+    color:white;
+    border-radius: 20px 20px;
+    padding: 5px 200px 5px 200px;
+}
+h4{
+    text-align: center;
+    background-color:rgb(88, 113, 240) ;
+    color:white;
+    border-radius: 20px 20px;
+    padding: 10px;
+}
+
+.usuario{
+    grid-column-start: 1;
+    grid-column-end:1;
+    grid-row-start:2;
+    grid-row-end:6;
+    background-color: rgb(203, 203, 203);
+    padding: 10px 20% 100px 20%;
+    border-radius: 20px 20px;
+}
+
+.fotoperfil{
+    width: 100%;
+    border-radius: 20px 20px;
+}
+
+.crearqr{
+    grid-column-start: 2;
+    grid-column-end:4;
+    grid-row-start:2;
+    grid-row-end:2;
+    background-color: rgb(203, 203, 203);
+    padding: 5%;
+    border-radius: 20px 20px;
+    height: 300px;
+}
+
+.editarqr{
+    grid-column-start: 2;
+    grid-column-end:4;
+    grid-row-start:3;
+    grid-row-end:3;
+    background-color: rgb(203, 203, 203);
+    padding: 5%;
+    border-radius: 20px 20px;
+    height: 300px;
+}
+
+.eliminarqr{
+    grid-column-start: 2;
+    grid-column-end:4;
+    grid-row-start:4;
+    grid-row-end:4;
+    background-color: rgb(203, 203, 203);
+    padding: 5%;
+    border-radius: 20px 20px;
+    height: 300px;
+}
+
+.dentro{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    place-items: center;
+}
+
+.uno{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    padding: 10%;
+    background-color: white;
+    border-radius: 20px 20px;
+}
+
+.dos{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    padding: 10%;
+    background-color: white;
+    border-radius: 20px 20px;
+}
+
+.tres{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    padding: 10%;
+    background-color: white;
+    border-radius: 20px 20px;
+}
+
+.texto{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    text-align: center;
+}

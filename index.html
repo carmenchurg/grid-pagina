@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patrimonio Nacional</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="titulo">
+        <h1>PATRIMONIO NACIONAL</h1>
+    </div>
+
+    <div class="usuario">
+        <h4>USUARIO</h4><br>
+        <img class="fotoperfil" src="img/descarga.jpeg" alt=""><br><br>
+        <button class="botus">EDITAR FOTO DE PERFIL</button><br><br>
+        <button class="botus">VISTA GENERAL DE LA PÁGINA</button><br><br>
+        <button class="ajustes">AJUSTES</button>
+    </div>
+    
+
+    <div class="crearqr">
+        <div class="dentro">
+            <img class="uno" src="img/glossary-qr.png" alt=""><br>
+            <div class="texto">
+                <h3>CREAR QR</h3>
+                <input type="text" placeholder="Escribe aquí..." /></p>
+                <form id="upload-form" enctype="multipart/form-data" action="/tu_ruta_de_procesamiento" method="POST">
+                    <label for="file-upload" class="custom-upload-button">
+                      Subir Imagen
+                    </label>
+                    <input type="file" id="file-upload" name="image" accept="image/*" required>
+                  </form><br>
+                <button class="buta">Crear QR</button><br><br>
+                <button class="butb">Descargar QR</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="editarqr">
+        <div class="dentro">
+            <img class="dos" src="img/glossary-qr.png" alt=""><br>
+            <div class="texto">
+                <h3>EDITAR QR</h3>
+                <input type="text" placeholder="Escribe aquí..." /></p>
+                <form id="upload-form" enctype="multipart/form-data" action="/tu_ruta_de_procesamiento" method="POST">
+                    <label for="file-upload" class="custom-upload-button">
+                      Subir Imagen
+                    </label>
+                    <input type="file" id="file-upload" name="image" accept="image/*" required>
+                  </form><br>
+                <button class="butc">Editar QR</button><br><br>
+                <button class="butd">Descargar nuevo QR</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="eliminarqr">
+        <div class="dentro">
+            <img class="tres" src="img/glossary-qr.png" alt=""><br>
+            <div class="texto">
+                <h3>ELIMINAR QR</h3>
+                <form id="upload-form" enctype="multipart/form-data" action="/tu_ruta_de_procesamiento" method="POST">
+                    <label for="file-upload" class="custom-upload-button">
+                      Subir Imagen
+                    </label>
+                    <input type="file" id="file-upload" name="image" accept="image/*" required>
+                  </form><br>
+                <button class="bute">Eliminar QR</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
